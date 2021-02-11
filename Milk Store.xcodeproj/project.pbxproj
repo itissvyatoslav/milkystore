@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1046450325C0080E00D4E051 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046450225C0080E00D4E051 /* SettingsViewController.swift */; };
+		1046451325C054DB00D4E051 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046451225C054DB00D4E051 /* Constants.swift */; };
+		1046451B25C0587800D4E051 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046451A25C0587800D4E051 /* LoginViewController.swift */; };
+		1046452025C0588800D4E051 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046451F25C0588800D4E051 /* EmailViewController.swift */; };
+		1046452C25C058F400D4E051 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046452B25C058F400D4E051 /* Extensions.swift */; };
 		10C43E5C25A6E43F002A8B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43E5B25A6E43F002A8B44 /* AppDelegate.swift */; };
 		10C43E5E25A6E43F002A8B44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43E5D25A6E43F002A8B44 /* SceneDelegate.swift */; };
 		10C43E6025A6E43F002A8B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43E5F25A6E43F002A8B44 /* ViewController.swift */; };
@@ -15,6 +20,29 @@
 		10C43E6825A6E444002A8B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C43E6625A6E444002A8B44 /* LaunchScreen.storyboard */; };
 		10C43E7325A6E445002A8B44 /* Milk_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43E7225A6E445002A8B44 /* Milk_StoreTests.swift */; };
 		10C43E7E25A6E445002A8B44 /* Milk_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43E7D25A6E445002A8B44 /* Milk_StoreUITests.swift */; };
+		10C43E9625A6E5D8002A8B44 /* Catalog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C43E9525A6E5D8002A8B44 /* Catalog.storyboard */; };
+		10C43E9B25A6E5EB002A8B44 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C43E9A25A6E5EB002A8B44 /* Cart.storyboard */; };
+		10C43EA025A6E602002A8B44 /* Messenger.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C43E9F25A6E602002A8B44 /* Messenger.storyboard */; };
+		10C43EA525A6E615002A8B44 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C43EA425A6E615002A8B44 /* Profile.storyboard */; };
+		10C43EB225A6E7F9002A8B44 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43EB125A6E7F9002A8B44 /* MainTabBarViewController.swift */; };
+		10C43EB725A6E875002A8B44 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43EB625A6E875002A8B44 /* CatalogViewController.swift */; };
+		10C43EBC25A6E89C002A8B44 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43EBB25A6E89C002A8B44 /* CartViewController.swift */; };
+		10C43EC125A6E8BA002A8B44 /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43EC025A6E8BA002A8B44 /* MessengerViewController.swift */; };
+		10C43EC625A6E8D5002A8B44 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43EC525A6E8D5002A8B44 /* ProfileViewController.swift */; };
+		10C43ECB25A71BCC002A8B44 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43ECA25A71BCC002A8B44 /* ProductsViewController.swift */; };
+		10CA266B25C17A1600FF9151 /* APIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CA266A25C17A1600FF9151 /* APIWorker.swift */; };
+		10F7B27325A738FF0095A555 /* CatalogProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7B27125A738FF0095A555 /* CatalogProductCell.swift */; };
+		10F7B27425A738FF0095A555 /* CatalogProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F7B27225A738FF0095A555 /* CatalogProductCell.xib */; };
+		10F7B27A25A744840095A555 /* CatalogProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7B27825A744840095A555 /* CatalogProductItem.swift */; };
+		10F7B27B25A744840095A555 /* CatalogProductItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F7B27925A744840095A555 /* CatalogProductItem.xib */; };
+		10F7B28025A788860095A555 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7B27F25A788860095A555 /* ProductViewController.swift */; };
+		10F81D4025BEDBBE00C7679B /* InfoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F81D3F25BEDBBE00C7679B /* InfoProfileViewController.swift */; };
+		10F81D4525BEE97C00C7679B /* PasswordProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F81D4425BEE97C00C7679B /* PasswordProfileViewController.swift */; };
+		10F81D4B25BF145300C7679B /* CartCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F81D4925BF145300C7679B /* CartCellTableViewCell.swift */; };
+		10F81D4C25BF145300C7679B /* CartCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F81D4A25BF145300C7679B /* CartCellTableViewCell.xib */; };
+		7BD8F422902F1A176E7CDF0F /* Pods_Milk_StoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278DE5BC8D9F2081D3BF55FB /* Pods_Milk_StoreTests.framework */; };
+		B1895FB081863DC1FA2557F4 /* Pods_Milk_Store_Milk_StoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B2D3AA069E2EC66FB29227 /* Pods_Milk_Store_Milk_StoreUITests.framework */; };
+		E1F2C449D3AF5F7C277096CA /* Pods_Milk_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66814E439B1359E41ECB3F43 /* Pods_Milk_Store.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +63,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1046450225C0080E00D4E051 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1046451225C054DB00D4E051 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1046451A25C0587800D4E051 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1046451F25C0588800D4E051 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		1046452B25C058F400D4E051 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		10C43E5825A6E43F002A8B44 /* Milk Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milk Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C43E5B25A6E43F002A8B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C43E5D25A6E43F002A8B44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +82,35 @@
 		10C43E7925A6E445002A8B44 /* Milk StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milk StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C43E7D25A6E445002A8B44 /* Milk_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk_StoreUITests.swift; sourceTree = "<group>"; };
 		10C43E7F25A6E445002A8B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C43E9525A6E5D8002A8B44 /* Catalog.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Catalog.storyboard; sourceTree = "<group>"; };
+		10C43E9A25A6E5EB002A8B44 /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		10C43E9F25A6E602002A8B44 /* Messenger.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Messenger.storyboard; sourceTree = "<group>"; };
+		10C43EA425A6E615002A8B44 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		10C43EB125A6E7F9002A8B44 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		10C43EB625A6E875002A8B44 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		10C43EBB25A6E89C002A8B44 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		10C43EC025A6E8BA002A8B44 /* MessengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
+		10C43EC525A6E8D5002A8B44 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		10C43ECA25A71BCC002A8B44 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		10CA266A25C17A1600FF9151 /* APIWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWorker.swift; sourceTree = "<group>"; };
+		10F7B27125A738FF0095A555 /* CatalogProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProductCell.swift; sourceTree = "<group>"; };
+		10F7B27225A738FF0095A555 /* CatalogProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogProductCell.xib; sourceTree = "<group>"; };
+		10F7B27825A744840095A555 /* CatalogProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProductItem.swift; sourceTree = "<group>"; };
+		10F7B27925A744840095A555 /* CatalogProductItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogProductItem.xib; sourceTree = "<group>"; };
+		10F7B27F25A788860095A555 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		10F81D3F25BEDBBE00C7679B /* InfoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoProfileViewController.swift; sourceTree = "<group>"; };
+		10F81D4425BEE97C00C7679B /* PasswordProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordProfileViewController.swift; sourceTree = "<group>"; };
+		10F81D4925BF145300C7679B /* CartCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCellTableViewCell.swift; sourceTree = "<group>"; };
+		10F81D4A25BF145300C7679B /* CartCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCellTableViewCell.xib; sourceTree = "<group>"; };
+		13138983C1E313072F1841D3 /* Pods-Milk Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milk Store.release.xcconfig"; path = "Target Support Files/Pods-Milk Store/Pods-Milk Store.release.xcconfig"; sourceTree = "<group>"; };
+		278DE5BC8D9F2081D3BF55FB /* Pods_Milk_StoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milk_StoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3874FF1D1C7000256DFE5AC1 /* Pods-Milk StoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milk StoreTests.debug.xcconfig"; path = "Target Support Files/Pods-Milk StoreTests/Pods-Milk StoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58CC6B6079AED397F407929A /* Pods-Milk StoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milk StoreTests.release.xcconfig"; path = "Target Support Files/Pods-Milk StoreTests/Pods-Milk StoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		66814E439B1359E41ECB3F43 /* Pods_Milk_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milk_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DD857DD30D1E49141DA0F5 /* Pods-Milk Store-Milk StoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milk Store-Milk StoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-Milk Store-Milk StoreUITests/Pods-Milk Store-Milk StoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B2D3AA069E2EC66FB29227 /* Pods_Milk_Store_Milk_StoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milk_Store_Milk_StoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF129718D7FB6E249F135E11 /* Pods-Milk Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milk Store.debug.xcconfig"; path = "Target Support Files/Pods-Milk Store/Pods-Milk Store.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D7879FF2A01B217B7AE381 /* Pods-Milk Store-Milk StoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milk Store-Milk StoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Milk Store-Milk StoreUITests/Pods-Milk Store-Milk StoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F2C449D3AF5F7C277096CA /* Pods_Milk_Store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD8F422902F1A176E7CDF0F /* Pods_Milk_StoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +134,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1895FB081863DC1FA2557F4 /* Pods_Milk_Store_Milk_StoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1046451025C054BF00D4E051 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10F7B27025A738C50095A555 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1046451125C054D000D4E051 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1046451225C054DB00D4E051 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1046452725C058D800D4E051 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10C43EB125A6E7F9002A8B44 /* MainTabBarViewController.swift */,
+				1046451A25C0587800D4E051 /* LoginViewController.swift */,
+				1046451F25C0588800D4E051 /* EmailViewController.swift */,
+				10C43EAA25A6E71B002A8B44 /* Catalog */,
+				10C43EAB25A6E724002A8B44 /* Cart */,
+				10C43EAC25A6E72B002A8B44 /* Messenger */,
+				10C43EAD25A6E737002A8B44 /* Profile */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		10C43E4F25A6E43F002A8B44 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +178,8 @@
 				10C43E7125A6E445002A8B44 /* Milk StoreTests */,
 				10C43E7C25A6E445002A8B44 /* Milk StoreUITests */,
 				10C43E5925A6E43F002A8B44 /* Products */,
+				884C0B92603DD8AB7842ADFE /* Pods */,
+				7E2BE2C97C46A39E6894BACA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +196,13 @@
 		10C43E5A25A6E43F002A8B44 /* Milk Store */ = {
 			isa = PBXGroup;
 			children = (
+				1046451125C054D000D4E051 /* Model */,
+				1046451025C054BF00D4E051 /* Views */,
+				10C43EA925A6E70A002A8B44 /* Controllers */,
+				10C43E9125A6E582002A8B44 /* Storyboards */,
 				10C43E5B25A6E43F002A8B44 /* AppDelegate.swift */,
 				10C43E5D25A6E43F002A8B44 /* SceneDelegate.swift */,
 				10C43E5F25A6E43F002A8B44 /* ViewController.swift */,
-				10C43E6125A6E43F002A8B44 /* Main.storyboard */,
 				10C43E6425A6E444002A8B44 /* Assets.xcassets */,
 				10C43E6625A6E444002A8B44 /* LaunchScreen.storyboard */,
 				10C43E6925A6E444002A8B44 /* Info.plist */,
@@ -128,6 +228,101 @@
 			path = "Milk StoreUITests";
 			sourceTree = "<group>";
 		};
+		10C43E9125A6E582002A8B44 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				10C43E6125A6E43F002A8B44 /* Main.storyboard */,
+				10C43E9525A6E5D8002A8B44 /* Catalog.storyboard */,
+				10C43E9A25A6E5EB002A8B44 /* Cart.storyboard */,
+				10C43E9F25A6E602002A8B44 /* Messenger.storyboard */,
+				10C43EA425A6E615002A8B44 /* Profile.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		10C43EA925A6E70A002A8B44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1046452725C058D800D4E051 /* ViewControllers */,
+				1046452B25C058F400D4E051 /* Extensions.swift */,
+				10CA266A25C17A1600FF9151 /* APIWorker.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		10C43EAA25A6E71B002A8B44 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				10C43EB625A6E875002A8B44 /* CatalogViewController.swift */,
+				10C43ECA25A71BCC002A8B44 /* ProductsViewController.swift */,
+				10F7B27F25A788860095A555 /* ProductViewController.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		10C43EAB25A6E724002A8B44 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				10C43EBB25A6E89C002A8B44 /* CartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		10C43EAC25A6E72B002A8B44 /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				10C43EC025A6E8BA002A8B44 /* MessengerViewController.swift */,
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		10C43EAD25A6E737002A8B44 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				10C43EC525A6E8D5002A8B44 /* ProfileViewController.swift */,
+				10F81D3F25BEDBBE00C7679B /* InfoProfileViewController.swift */,
+				10F81D4425BEE97C00C7679B /* PasswordProfileViewController.swift */,
+				1046450225C0080E00D4E051 /* SettingsViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		10F7B27025A738C50095A555 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				10F7B27125A738FF0095A555 /* CatalogProductCell.swift */,
+				10F7B27225A738FF0095A555 /* CatalogProductCell.xib */,
+				10F7B27825A744840095A555 /* CatalogProductItem.swift */,
+				10F7B27925A744840095A555 /* CatalogProductItem.xib */,
+				10F81D4925BF145300C7679B /* CartCellTableViewCell.swift */,
+				10F81D4A25BF145300C7679B /* CartCellTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7E2BE2C97C46A39E6894BACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66814E439B1359E41ECB3F43 /* Pods_Milk_Store.framework */,
+				A9B2D3AA069E2EC66FB29227 /* Pods_Milk_Store_Milk_StoreUITests.framework */,
+				278DE5BC8D9F2081D3BF55FB /* Pods_Milk_StoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		884C0B92603DD8AB7842ADFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF129718D7FB6E249F135E11 /* Pods-Milk Store.debug.xcconfig */,
+				13138983C1E313072F1841D3 /* Pods-Milk Store.release.xcconfig */,
+				67DD857DD30D1E49141DA0F5 /* Pods-Milk Store-Milk StoreUITests.debug.xcconfig */,
+				D5D7879FF2A01B217B7AE381 /* Pods-Milk Store-Milk StoreUITests.release.xcconfig */,
+				3874FF1D1C7000256DFE5AC1 /* Pods-Milk StoreTests.debug.xcconfig */,
+				58CC6B6079AED397F407929A /* Pods-Milk StoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +330,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C43E8225A6E445002A8B44 /* Build configuration list for PBXNativeTarget "Milk Store" */;
 			buildPhases = (
+				2DD9F3658B3F36D3F453EEFD /* [CP] Check Pods Manifest.lock */,
 				10C43E5425A6E43F002A8B44 /* Sources */,
 				10C43E5525A6E43F002A8B44 /* Frameworks */,
 				10C43E5625A6E43F002A8B44 /* Resources */,
+				8F2B21B330A540E11234F88C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +349,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C43E8525A6E445002A8B44 /* Build configuration list for PBXNativeTarget "Milk StoreTests" */;
 			buildPhases = (
+				2EDB50468EB3C9A19CF31D6A /* [CP] Check Pods Manifest.lock */,
 				10C43E6A25A6E445002A8B44 /* Sources */,
 				10C43E6B25A6E445002A8B44 /* Frameworks */,
 				10C43E6C25A6E445002A8B44 /* Resources */,
@@ -170,9 +368,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C43E8825A6E445002A8B44 /* Build configuration list for PBXNativeTarget "Milk StoreUITests" */;
 			buildPhases = (
+				53006075E849CB71F914072D /* [CP] Check Pods Manifest.lock */,
 				10C43E7525A6E445002A8B44 /* Sources */,
 				10C43E7625A6E445002A8B44 /* Frameworks */,
 				10C43E7725A6E445002A8B44 /* Resources */,
+				59A90474BEDFF041F881B3C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +431,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C43EA025A6E602002A8B44 /* Messenger.storyboard in Resources */,
+				10C43E9625A6E5D8002A8B44 /* Catalog.storyboard in Resources */,
+				10F7B27B25A744840095A555 /* CatalogProductItem.xib in Resources */,
+				10F81D4C25BF145300C7679B /* CartCellTableViewCell.xib in Resources */,
 				10C43E6825A6E444002A8B44 /* LaunchScreen.storyboard in Resources */,
+				10F7B27425A738FF0095A555 /* CatalogProductCell.xib in Resources */,
 				10C43E6525A6E444002A8B44 /* Assets.xcassets in Resources */,
+				10C43E9B25A6E5EB002A8B44 /* Cart.storyboard in Resources */,
+				10C43EA525A6E615002A8B44 /* Profile.storyboard in Resources */,
 				10C43E6325A6E43F002A8B44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +460,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DD9F3658B3F36D3F453EEFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milk Store-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDB50468EB3C9A19CF31D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milk StoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53006075E849CB71F914072D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milk Store-Milk StoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A90474BEDFF041F881B3C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Milk Store-Milk StoreUITests/Pods-Milk Store-Milk StoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Milk Store-Milk StoreUITests/Pods-Milk Store-Milk StoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Milk Store-Milk StoreUITests/Pods-Milk Store-Milk StoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F2B21B330A540E11234F88C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Milk Store/Pods-Milk Store-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Milk Store/Pods-Milk Store-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Milk Store/Pods-Milk Store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10C43E5425A6E43F002A8B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1046451B25C0587800D4E051 /* LoginViewController.swift in Sources */,
+				10C43EB725A6E875002A8B44 /* CatalogViewController.swift in Sources */,
+				1046451325C054DB00D4E051 /* Constants.swift in Sources */,
+				10C43EC125A6E8BA002A8B44 /* MessengerViewController.swift in Sources */,
 				10C43E6025A6E43F002A8B44 /* ViewController.swift in Sources */,
+				10F7B27A25A744840095A555 /* CatalogProductItem.swift in Sources */,
+				10C43EB225A6E7F9002A8B44 /* MainTabBarViewController.swift in Sources */,
 				10C43E5C25A6E43F002A8B44 /* AppDelegate.swift in Sources */,
+				10F81D4B25BF145300C7679B /* CartCellTableViewCell.swift in Sources */,
+				1046450325C0080E00D4E051 /* SettingsViewController.swift in Sources */,
+				10F7B28025A788860095A555 /* ProductViewController.swift in Sources */,
+				10C43EBC25A6E89C002A8B44 /* CartViewController.swift in Sources */,
+				10C43ECB25A71BCC002A8B44 /* ProductsViewController.swift in Sources */,
+				1046452025C0588800D4E051 /* EmailViewController.swift in Sources */,
+				10C43EC625A6E8D5002A8B44 /* ProfileViewController.swift in Sources */,
+				1046452C25C058F400D4E051 /* Extensions.swift in Sources */,
+				10F81D4025BEDBBE00C7679B /* InfoProfileViewController.swift in Sources */,
+				10F81D4525BEE97C00C7679B /* PasswordProfileViewController.swift in Sources */,
 				10C43E5E25A6E43F002A8B44 /* SceneDelegate.swift in Sources */,
+				10CA266B25C17A1600FF9151 /* APIWorker.swift in Sources */,
+				10F7B27325A738FF0095A555 /* CatalogProductCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +761,7 @@
 		};
 		10C43E8325A6E445002A8B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF129718D7FB6E249F135E11 /* Pods-Milk Store.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +775,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Softweather.Milk-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		10C43E8425A6E445002A8B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13138983C1E313072F1841D3 /* Pods-Milk Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +795,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Softweather.Milk-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		10C43E8625A6E445002A8B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3874FF1D1C7000256DFE5AC1 /* Pods-Milk StoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +824,7 @@
 		};
 		10C43E8725A6E445002A8B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CC6B6079AED397F407929A /* Pods-Milk StoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +847,7 @@
 		};
 		10C43E8925A6E445002A8B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DD857DD30D1E49141DA0F5 /* Pods-Milk Store-Milk StoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +868,7 @@
 		};
 		10C43E8A25A6E445002A8B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D7879FF2A01B217B7AE381 /* Pods-Milk Store-Milk StoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

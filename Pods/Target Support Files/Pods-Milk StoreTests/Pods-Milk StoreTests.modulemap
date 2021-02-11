@@ -1,0 +1,6 @@
+framework module Pods_Milk_StoreTests {
+  umbrella header "Pods-Milk StoreTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
